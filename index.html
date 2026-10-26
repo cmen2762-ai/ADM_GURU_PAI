@@ -176,7 +176,7 @@
             <!-- PANEL KANAN: KATA-KATA MUTIARA ISLAMI -->
             <div class="hidden md:flex bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-950 p-12 text-white flex-col justify-between relative overflow-hidden">
                 <div class="relative z-10 flex justify-between items-center">
-                    <span class="text-xs uppercase tracking-widest text-emerald-300 font-semibold bg-emerald-950/50 px-3 py-1 rounded-full border border-emerald-700/50">Mutiara Hikmah</span>
+                    <span class="text-xs uppercase tracking-widest text-emerald-300 font-semibold bg-emerald-950/50 px-3 py-1 rounded-full border border-emerald-700/50">SDN 22 TANAH KERAS</span>
                     <i class="fa-solid fa-moon text-emerald-300 text-xl"></i>
                 </div>
 
@@ -187,7 +187,7 @@
                     </p>
                     <div class="border-l-2 border-emerald-400 pl-4">
                         <p class="font-bold text-sm text-white">HR. Muslim (No. 2699)</p>
-                        <p class="text-xs text-emerald-300 mt-0.5">Panduan & Spirit Tenaga Pendidik PAI</p>
+                        <p class="text-xs text-emerald-300 mt-0.5">Yesi Harini, S.Pd I</p>
                     </div>
                 </div>
 
@@ -453,7 +453,7 @@
                 <div class="flex flex-wrap items-center gap-3">
                     <button onclick="openModal('modalTarikSiswaExt')" class="bg-indigo-700 hover:bg-indigo-800 text-white font-semibold px-4 py-2.5 rounded-xl shadow flex items-center space-x-2 text-sm transition">
                         <i class="fa-solid fa-file-import text-amber-300"></i>
-                        <span>Tarik Data Eksternal</span>
+                        <span>Tarik Data Aplikasi ADM OPS</span>
                     </button>
                     <button onclick="openModal('modalSiswa')" class="bg-emerald-800 hover:bg-emerald-900 text-white font-semibold px-5 py-2.5 rounded-xl shadow flex items-center space-x-2 text-sm transition">
                         <i class="fa-solid fa-plus"></i>
@@ -507,7 +507,7 @@
                 <div class="p-6 bg-indigo-900 text-white flex justify-between items-center">
                     <h3 class="text-lg font-bold flex items-center space-x-2">
                         <i class="fa-solid fa-file-import text-amber-300"></i>
-                        <span>Tarik Data Siswa dari ADMOPS / Apps Script</span>
+                        <span>Tarik Data Siswa dari ADM OPS</span>
                     </h3>
                     <button onclick="closeModal('modalTarikSiswaExt')" class="text-indigo-200 hover:text-white"><i class="fa-solid fa-xmark text-xl"></i></button>
                 </div>
@@ -517,7 +517,7 @@
                             <i class="fa-solid fa-circle-info text-indigo-600"></i>
                             <span>Petunjuk Tarik Data ADMOPS:</span>
                         </p>
-                        <p>Aplikasi ini akan menarik data daftar siswa dari Google Apps Script ADMOPS secara otomatis disesuaikan dengan struktur data internalnya.</p>
+                        <p>Aplikasi ini akan menarik data daftar siswa dari ADM OPS secara otomatis.</p>
                     </div>
 
                     <div>
@@ -1706,7 +1706,7 @@
                     clearInterval(interval);
                     setTimeout(() => {
                         if (loadingOverlay) loadingOverlay.classList.add('hidden');
-                        showToast("Tarik Data dari Google Sheet Berhasil!");
+                        showToast("Tarik Data Berhasil!");
                     }, 400);
                 }
             }, 70);
